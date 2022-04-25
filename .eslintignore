@@ -1,0 +1,9 @@
+.eslintrc.js
+.prettierrc.js
+babel.config.js
+package.json
+README.md
+package-lock.json
+/.vscode/*
+/node_modules/
+vue.config.js
