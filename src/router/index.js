@@ -4,6 +4,9 @@ import VueRouter from 'vue-router';
 import authRouter from '../views/auth/router';
 import adminRouter from '../views/administracion/router';
 import establecimientosRouter from '../views/establecimientos/router';
+import categoriasRouter from '../views/categorias/router';
+import promocionesRouter from '../views/promociones/router';
+import sucursalesRouter from '../views/sucursales/router';
 
 Vue.use(VueRouter);
 
@@ -19,6 +22,9 @@ const routes = [
       },
       ...adminRouter,
       ...establecimientosRouter,
+      ...categoriasRouter,
+      ...promocionesRouter,
+      ...sucursalesRouter,
     ],
   },
   ...authRouter,
